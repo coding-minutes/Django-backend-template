@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  ide_core:
+    image: template/template
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    build: .
