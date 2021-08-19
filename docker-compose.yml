@@ -1,8 +1,8 @@
 version: "3"
 
 services:
-  ide_core:
-    image: template/template
+  template:
+    image: codingminutes/template
     env_file:
       - .env
     ports:
